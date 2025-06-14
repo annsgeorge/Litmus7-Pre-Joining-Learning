@@ -1,4 +1,4 @@
-Assignment 3 - Student Report Card Generator (DTO Version)
+## Assignment 3 - Student Report Card Generator (DTO Version)
 
 This Java console application uses the **DTO (Data Transfer Object)** pattern to model student data and generate report cards.
 
