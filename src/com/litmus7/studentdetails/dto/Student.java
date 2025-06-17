@@ -1,45 +1,96 @@
 package com.litmus7.studentdetails.dto;
 
+/**
+ * represents a student with name,roll no and marks
+ */
 public class Student {
 	private String name;
-	private int roll_no;
+	private int rollNo;
 	private float marks[];
- 
-	public Student() {
-		//default constructor
-	}
-	public Student(String name,int roll_no,float marks[]) {
-		this.name=name;   //this.name refers to instance variable
-		this.roll_no=roll_no;
-		this.marks=marks;
-	}
-	
-	
 
-	public  String getName() {
-		
+	/**
+	 * default constructor
+	 * 
+	 * Initializes an empty student object
+	 */
+	public Student() {
+
+	}
+
+	/**
+	 * construct a student with specified name,roll no and marks
+	 * 
+	 * @param name
+	 * @param rollNo
+	 * @param marks
+	 */
+
+	public Student(String name, int rollNo, float marks[]) {
+		this.name = name;
+		this.rollNo = rollNo;
+		this.marks = marks;
+	}
+
+	/**
+	 * returns the name of the student
+	 * 
+	 * @return name of the student
+	 */
+
+	public String getName() {
+
 		return name;
 	}
+
+	/**
+	 * sets the name of the student
+	 * 
+	 * @param name
+	 */
+
 	public void setName(String name) {
-		this.name=name;
+		this.name = name;
 	}
-public  int getRollno() {
-		
-		return roll_no;
+
+	/**
+	 * returns the roll no of the student
+	 * 
+	 * @return rollNo
+	 */
+
+	public int getRollNo() {
+
+		return rollNo;
 	}
-	public void setRollno(int roll_no) {
-		this.roll_no=roll_no;
+
+	/**
+	 * sets the roll no of the student
+	 * 
+	 * @param roll_no
+	 */
+
+	public void setRollNo(int roll_no) {
+		this.rollNo = roll_no;
 	}
-public  float[] getMarks() {
-		
+
+	/**
+	 * returns the array of marks obtained by the student.
+	 * 
+	 * @return marks of the student
+	 */
+
+	public float[] getMarks() {
+
 		return marks;
 	}
+
+	/**
+	 * Sets the array of marks for the student.
+	 * 
+	 * @param marks
+	 */
 	public void setMarks(float marks[]) {
-		this.marks=marks;
+		this.marks = marks;
 	}
- 
-	
-		  
-	 }
 
-
+}
