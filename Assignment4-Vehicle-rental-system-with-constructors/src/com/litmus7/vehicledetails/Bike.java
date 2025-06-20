@@ -2,11 +2,19 @@ package com.litmus7.vehicledetails;
 
 import java.util.Scanner;
 
+/**
+ * The Bike class extends the Vehicle class and adds bike-specific details such
+ * as gear availability and engine capacity.
+ * 
+ */
 public class Bike extends Vehicle {
 
 	boolean hasGear;
 	int engineCapacity;
 
+	/**
+	 * Default constructor initializing the Bike with default values.
+	 */
 	public Bike() {
 		brand = "Suzuki";
 		model = "Gixxer";
@@ -15,6 +23,12 @@ public class Bike extends Vehicle {
 		engineCapacity = 125;
 
 	}
+
+	/**
+	 * Overrides Vehicle's inputDetails method to include bike-specific inputs.
+	 * Collects information from the user about gear and engine capacity.
+	 * 
+	 */
 
 	@Override
 	public void inputDetails() {
@@ -28,6 +42,10 @@ public class Bike extends Vehicle {
 		engineCapacity = scanner.nextInt();
 
 	}
+
+	/**
+	 * Overrides Vehicle's displayDetails method to include bike-specific details.
+	 */
 
 	@Override
 	public void displayDetails() {
