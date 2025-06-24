@@ -1,0 +1,8 @@
+
+Car,Toyota,Corolla,45.5,false,4,true
+Bike,Yamaha,R15,30.0,true,true,150
+Car,Ford,Focus,50.0,true,5,false
+Bike,Honda,CBR,35.5,false,false,250
+Car,Chevrolet,Malibu,55.0,false,4,true
+Bike,Suzuki,GSX,40.0,true,true,200
+ 
