@@ -1,0 +1,89 @@
+Checking file at:src\vehicles.txt
+File found. Trying to load...
+[Car [ Brand=Chevrolet, Model=Malibu, RentalPricePerDay=55.0, numberOfDoors=4, isAutomatic=true, isAvailable=true]
+, Car [ Brand=volkswagon, Model=polo, RentalPricePerDay=2300.0, numberOfDoors=4, isAutomatic=true, isAvailable=false]
+, Bike [ Brand=hero, Model=xpulse,RentalPricePerDay=450.0, hasGear=true, engineCapacity=200, isAvailable=true]
+, Car [ Brand=volkswagen, Model=ameo, RentalPricePerDay=2000.0, numberOfDoors=4, isAutomatic=true, isAvailable=true]
+, Car [ Brand=Honda, Model=City, RentalPricePerDay=1300.0, numberOfDoors=4, isAutomatic=true, isAvailable=false]
+, Car [ Brand=Honda, Model=City, RentalPricePerDay=1300.0, numberOfDoors=4, isAutomatic=true, isAvailable=true]
+]
+
+Vehicle data loaded successfully:
+
+Total Rental Amount: 3600.0
+
+--- Vehicle Rental App ---
+
+1. Rent a vehicle
+2. Add a new vehicle
+3. Search for a brand or a model
+4. Exit
+Enter your choice: 1
+
+Details of available vehicles:
+
+[1] Car [ Brand=Chevrolet, Model=Malibu, RentalPricePerDay=55.0, numberOfDoors=4, isAutomatic=true, isAvailable=true]
+
+[2] Bike [ Brand=hero, Model=xpulse,RentalPricePerDay=450.0, hasGear=true, engineCapacity=200, isAvailable=true]
+
+[3] Car [ Brand=volkswagen, Model=ameo, RentalPricePerDay=2000.0, numberOfDoors=4, isAutomatic=true, isAvailable=true]
+
+[4] Car [ Brand=Honda, Model=City, RentalPricePerDay=1300.0, numberOfDoors=4, isAutomatic=true, isAvailable=true]
+
+
+Choose the number of the vehicle you want to rent:
+4
+
+Select number of days to rent:
+3
+Car [ Brand=Honda, Model=City, RentalPricePerDay=1300.0, numberOfDoors=4, isAutomatic=true, isAvailable=false]
+
+Rental Days: 3
+Total Rent: Rs 3900.0
+Vehicle Rented Successfully
+
+--- Vehicle Rental App ---
+
+1. Rent a vehicle
+2. Add a new vehicle
+3. Search for a brand or a model
+4. Exit
+Enter your choice: 2
+
+--- Proceeding to add Vehicle ---
+
+Vehicle added successfully
+
+---Displaying updated Vehicle list---
+[Car [ Brand=Chevrolet, Model=Malibu, RentalPricePerDay=55.0, numberOfDoors=4, isAutomatic=true, isAvailable=true]
+, Car [ Brand=volkswagon, Model=polo, RentalPricePerDay=2300.0, numberOfDoors=4, isAutomatic=true, isAvailable=false]
+, Bike [ Brand=hero, Model=xpulse,RentalPricePerDay=450.0, hasGear=true, engineCapacity=200, isAvailable=true]
+, Car [ Brand=volkswagen, Model=ameo, RentalPricePerDay=2000.0, numberOfDoors=4, isAutomatic=true, isAvailable=true]
+, Car [ Brand=Honda, Model=City, RentalPricePerDay=1300.0, numberOfDoors=4, isAutomatic=true, isAvailable=false]
+, Car [ Brand=Honda, Model=City, RentalPricePerDay=1300.0, numberOfDoors=4, isAutomatic=true, isAvailable=false]
+, Car [ Brand=Kia, Model=Sonet, RentalPricePerDay=1300.0, numberOfDoors=4, isAutomatic=true, isAvailable=true]
+]
+
+--- Vehicle Rental App ---
+
+1. Rent a vehicle
+2. Add a new vehicle
+3. Search for a brand or a model
+4. Exit
+Enter your choice: 3
+
+Enter the brand or model you need to search:
+hero
+
+Your search list:
+[Bike [ Brand=hero, Model=xpulse,RentalPricePerDay=450.0, hasGear=true, engineCapacity=200, isAvailable=true]
+]
+
+--- Vehicle Rental App ---
+
+1. Rent a vehicle
+2. Add a new vehicle
+3. Search for a brand or a model
+4. Exit
+Enter your choice: 4
+Thank you for using the rental app!
