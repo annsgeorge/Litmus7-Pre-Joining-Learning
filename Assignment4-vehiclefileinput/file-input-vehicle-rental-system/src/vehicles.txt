@@ -1,0 +1,7 @@
+Car,Chevrolet,Malibu,55.0,true,4,true
+Car,volkswagon,polo,2300.0,false,4,true
+Bike,hero,xpulse,450.0,true,true,200
+Car,volkswagen,ameo,2000.0,true,4,true
+Car,Honda,City,1300.0,false,4,true
+Car,Honda,City,1300.0,false,4,true
+Car,Kia,Sonet,1300.0,true,4,true
